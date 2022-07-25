@@ -46,6 +46,9 @@
   /* padding: 10px; */
   height: 400px;
   width: 400px;
+  font-weight: 700;
+  font-size: 70px;
+  color: #61dafb;
 }
 
 /* .grid-container > button {
@@ -54,11 +57,13 @@
 } */
 
 .grid-item {
+  display: flex;
   background-color: #282c34;
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
-  /* padding: 20px; */
-  font-size: 30px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+
 }
 
 /* .g4, .g5, .g6 {
